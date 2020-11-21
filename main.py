@@ -1,6 +1,7 @@
 import logging
 from webpreview import web_preview
 import wikipedia
+import os
 
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
